@@ -1,0 +1,12 @@
+/home/user/example/example.log {
+    rotate 7
+    daily
+    missingok
+    ifempty
+    maxage 7
+    compress
+    delaycompress
+    dateext
+    dateformat -%Y%m%d
+    extension .log
+}
